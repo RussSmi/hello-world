@@ -1,0 +1,159 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "workflows_la_devopstest_simple_name": {
+            "value": null
+        },
+        "service_apim_devopstest_rs_name": {
+            "value": null
+        },
+        "users_1_name": {
+            "value": null
+        },
+        "groups_guests_name": {
+            "value": null
+        },
+        "policies_policy_name": {
+            "value": null
+        },
+        "products_starter_name": {
+            "value": null
+        },
+        "groups_developers_name": {
+            "value": null
+        },
+        "notifications_BCC_name": {
+            "value": null
+        },
+        "products_unlimited_name": {
+            "value": null
+        },
+        "subscriptions_master_name": {
+            "value": null
+        },
+        "groups_administrators_name": {
+            "value": null
+        },
+        "apis_la_devopstest_simple_name": {
+            "value": null
+        },
+        "users_1_name_1": {
+            "value": null
+        },
+        "users_1_name_2": {
+            "value": null
+        },
+        "groups_guests_name_1": {
+            "value": null
+        },
+        "templates_AccountClosedDeveloper_name": {
+            "value": null
+        },
+        "policies_policy_name_1": {
+            "value": null
+        },
+        "groups_guests_name_2": {
+            "value": null
+        },
+        "groups_developers_name_1": {
+            "value": null
+        },
+        "properties_5c52212a94cae0b62d08f2a6_name": {
+            "value": null
+        },
+        "notifications_AccountClosedPublisher_name": {
+            "value": null
+        },
+        "templates_EmailChangeIdentityDefault_name": {
+            "value": null
+        },
+        "groups_developers_name_2": {
+            "value": null
+        },
+        "templates_NewIssueNotificationMessage_name": {
+            "value": null
+        },
+        "subscriptions_5c52151432bd0e008e070001_name": {
+            "value": null
+        },
+        "subscriptions_5c52151532bd0e008e070002_name": {
+            "value": null
+        },
+        "templates_ConfirmSignUpIdentityDefault_name": {
+            "value": null
+        },
+        "templates_PasswordResetIdentityDefault_name": {
+            "value": null
+        },
+        "groups_administrators_name_1": {
+            "value": null
+        },
+        "templates_InviteUserNotificationMessage_name": {
+            "value": null
+        },
+        "templates_NewCommentNotificationMessage_name": {
+            "value": null
+        },
+        "groups_administrators_name_2": {
+            "value": null
+        },
+        "templates_NewDeveloperNotificationMessage_name": {
+            "value": null
+        },
+        "api_version_sets_5c522119b38b3386a701bc2f_name": {
+            "value": null
+        },
+        "policies_policy_name_2": {
+            "value": null
+        },
+        "templates_RejectDeveloperNotificationMessage_name": {
+            "value": null
+        },
+        "apis_la_devopstest_simple_name_1": {
+            "value": null
+        },
+        "templates_RequestDeveloperNotificationMessage_name": {
+            "value": null
+        },
+        "templates_PurchaseDeveloperNotificationMessage_name": {
+            "value": null
+        },
+        "notifications_NewApplicationNotificationMessage_name": {
+            "value": null
+        },
+        "templates_ApplicationApprovedNotificationMessage_name": {
+            "value": null
+        },
+        "backends_LogicApp_la_devopstest_simple_DevOpsTest_name": {
+            "value": null
+        },
+        "notifications_RequestPublisherNotificationMessage_name": {
+            "value": null
+        },
+        "templates_PasswordResetByAdminNotificationMessage_name": {
+            "value": null
+        },
+        "notifications_PurchasePublisherNotificationMessage_name": {
+            "value": null
+        },
+        "notifications_NewIssuePublisherNotificationMessage_name": {
+            "value": null
+        },
+        "operations_manual_invoke_name": {
+            "value": null
+        },
+        "schemas_5c52211ee59ab311e0f3fe98_name": {
+            "value": null
+        },
+        "templates_QuotaLimitApproachingDeveloperNotificationMessage_name": {
+            "value": null
+        },
+        "notifications_QuotaLimitApproachingPublisherNotificationMessage_name": {
+            "value": null
+        },
+        "policies_policy_name_3": {
+            "value": null
+        }
+    }
+}
