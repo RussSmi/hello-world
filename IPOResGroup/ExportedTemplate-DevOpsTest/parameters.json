@@ -2,42 +2,39 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "workflows_la_devopstest_simple_name": {
-            "value": "la-devopstest-simple"
-        },
-        "service_apim_devopstest_rs_name": {
-            "value": "apim-devopstest-rs"
-        },
-        "users_1_name": {
-            "value": null
-        },
-        "groups_guests_name": {
-            "value": null
-        },
-        "policies_policy_name": {
-            "value": null
-        },
-        "products_starter_name": {
-            "value": "Starter"
-        },
+      "service_apim_devopstest_rs_name": {
+        "value": "apim-devopstest-rs"
+      },
+      "users_1_name": {
+        "value": "1"
+      },
+      "groups_guests_name": {
+        "value": "guests"
+      },
+      "policies_policy_name": {
+        "value": "policy"
+      },
+      "products_starter_name": {
+        "value": "starter"
+      },
         "groups_developers_name": {
             "value": null
         },
         "notifications_BCC_name": {
             "value": null
         },
-        "products_unlimited_name": {
-            "value": "Unlimited"
-        },
-      "subscriptions_master_name": {
-        "value": "Microsoft Azure Internal Consumption"
+      "products_unlimited_name": {
+        "value": "unlimited"
       },
+        "subscriptions_master_name": {
+            "value": null
+        },
         "groups_administrators_name": {
             "value": null
         },
-        "apis_la_devopstest_simple_name": {
-            "value": "la-devopstest-simple"
-        },
+      "apis_la_devopstest_simple_name": {
+        "value": "la-devopstest-simple"
+      },
         "users_1_name_1": {
             "value": null
         },

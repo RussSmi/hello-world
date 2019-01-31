@@ -2,10 +2,6 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "workflows_la_devopstest_simple_name": {
-            "defaultValue": "la-devopstest-simple",
-            "type": "String"
-        },
         "service_apim_devopstest_rs_name": {
             "defaultValue": "apim-devopstest-rs",
             "type": "String"
@@ -239,81 +235,6 @@
                 },
                 "virtualNetworkType": "None",
                 "certificates": null
-            },
-            "dependsOn": []
-        },
-        {
-            "comments": "Generalized from resource: '/subscriptions/ca9ae6cf-2ab2-48d0-981d-c1030fd74a64/resourceGroups/DevOpsTest/providers/Microsoft.Logic/workflows/la-devopstest-simple'.",
-            "type": "Microsoft.Logic/workflows",
-            "name": "[parameters('workflows_la_devopstest_simple_name')]",
-            "apiVersion": "2017-07-01",
-            "location": "uksouth",
-            "tags": {},
-            "scale": null,
-            "properties": {
-                "state": "Enabled",
-                "definition": {
-                    "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
-                    "contentVersion": "1.0.0.0",
-                    "parameters": {},
-                    "triggers": {
-                        "manual": {
-                            "type": "Request",
-                            "kind": "Http",
-                            "inputs": {
-                                "schema": {
-                                    "properties": {
-                                        "tasks": {
-                                            "items": {
-                                                "properties": {
-                                                    "category": {
-                                                        "type": "string"
-                                                    },
-                                                    "date": {
-                                                        "type": "string"
-                                                    },
-                                                    "taskName": {
-                                                        "type": "string"
-                                                    }
-                                                },
-                                                "required": [
-                                                    "taskName",
-                                                    "category",
-                                                    "date"
-                                                ],
-                                                "type": "object"
-                                            },
-                                            "type": "array"
-                                        }
-                                    },
-                                    "type": "object"
-                                }
-                            }
-                        }
-                    },
-                    "actions": {
-                        "Compose": {
-                            "runAfter": {},
-                            "type": "Compose",
-                            "inputs": "@triggerBody()"
-                        },
-                        "Response": {
-                            "runAfter": {
-                                "Compose": [
-                                    "Succeeded"
-                                ]
-                            },
-                            "type": "Response",
-                            "kind": "Http",
-                            "inputs": {
-                                "body": "Hello World!",
-                                "statusCode": 200
-                            }
-                        }
-                    },
-                    "outputs": {}
-                },
-                "parameters": {}
             },
             "dependsOn": []
         },
