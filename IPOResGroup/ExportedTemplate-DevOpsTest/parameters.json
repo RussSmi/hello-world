@@ -17,140 +17,140 @@
       "products_starter_name": {
         "value": "starter"
       },
-        "groups_developers_name": {
-            "value": null
-        },
+      "groups_developers_name": {
+        "value": "developers"
+      },
         "notifications_BCC_name": {
-            "value": null
+            "value": "BCC"
         },
       "products_unlimited_name": {
         "value": "unlimited"
       },
         "subscriptions_master_name": {
-            "value": null
+            "value": "master"
         },
-        "groups_administrators_name": {
-            "value": null
-        },
+      "groups_administrators_name": {
+        "value": "administrators"
+      },
       "apis_la_devopstest_simple_name": {
         "value": "la-devopstest-simple"
       },
         "users_1_name_1": {
-            "value": null
+            "value": "1"
         },
         "users_1_name_2": {
-            "value": null
+            "value": "1"
         },
         "groups_guests_name_1": {
-            "value": null
+            "value": "guests"
         },
-        "templates_AccountClosedDeveloper_name": {
-            "value": null
-        },
-        "policies_policy_name_1": {
-            "value": null
-        },
+      "templates_AccountClosedDeveloper_name": {
+        "value": "AccountClosedDeveloper"
+      },
+      "policies_policy_name_1": {
+        "value": "policy"
+      },
         "groups_guests_name_2": {
-            "value": null
+            "value": "guests"
         },
         "groups_developers_name_1": {
-            "value": null
+            "value": "developers"
         },
-        "properties_5c52212a94cae0b62d08f2a6_name": {
-            "value": null
-        },
-        "notifications_AccountClosedPublisher_name": {
-            "value": null
-        },
-        "templates_EmailChangeIdentityDefault_name": {
-            "value": null
-        },
-        "groups_developers_name_2": {
-            "value": null
-        },
-        "templates_NewIssueNotificationMessage_name": {
-            "value": null
-        },
-        "subscriptions_5c52151432bd0e008e070001_name": {
-            "value": null
-        },
-        "subscriptions_5c52151532bd0e008e070002_name": {
-            "value": null
-        },
-        "templates_ConfirmSignUpIdentityDefault_name": {
-            "value": null
-        },
-        "templates_PasswordResetIdentityDefault_name": {
-            "value": null
-        },
-        "groups_administrators_name_1": {
-            "value": null
-        },
-        "templates_InviteUserNotificationMessage_name": {
-            "value": null
-        },
-        "templates_NewCommentNotificationMessage_name": {
-            "value": null
-        },
-        "groups_administrators_name_2": {
-            "value": null
-        },
-        "templates_NewDeveloperNotificationMessage_name": {
-            "value": null
-        },
-        "api_version_sets_5c522119b38b3386a701bc2f_name": {
-            "value": null
-        },
+      "properties_5c52212a94cae0b62d08f2a6_name": {
+        "value": "5c52212a94cae0b62d08f2a6"
+      },
+      "notifications_AccountClosedPublisher_name": {
+        "value": "AccountClosedPublisher"
+      },
+      "templates_EmailChangeIdentityDefault_name": {
+        "value": "EmailChangeIdentityDefault"
+      },
+      "groups_developers_name_2": {
+        "value": "developers"
+      },
+      "templates_NewIssueNotificationMessage_name": {
+        "value": "NewIssueNotificationMessage"
+      },
+      "subscriptions_5c52151432bd0e008e070001_name": {
+        "value": "5c52151432bd0e008e070001"
+      },
+      "subscriptions_5c52151532bd0e008e070002_name": {
+        "value": "5c52151532bd0e008e070002"
+      },
+      "templates_ConfirmSignUpIdentityDefault_name": {
+        "value": "ConfirmSignUpIdentityDefault"
+      },
+      "templates_PasswordResetIdentityDefault_name": {
+        "value": "PasswordResetIdentityDefault"
+      },
+      "groups_administrators_name_1": {
+        "value": "administrators"
+      },
+      "templates_InviteUserNotificationMessage_name": {
+        "value": "InviteUserNotificationMessage"
+      },
+      "templates_NewCommentNotificationMessage_name": {
+        "value": "NewCommentNotificationMessage"
+      },
+      "groups_administrators_name_2": {
+        "value": "administrators"
+      },
+      "templates_NewDeveloperNotificationMessage_name": {
+        "value": "NewDeveloperNotificationMessage"
+      },
+      "api_version_sets_5c522119b38b3386a701bc2f_name": {
+        "value": "5c522119b38b3386a701bc2f"
+      },
         "policies_policy_name_2": {
-            "value": null
+            "value": "policy"
         },
-        "templates_RejectDeveloperNotificationMessage_name": {
-            "value": null
-        },
-        "apis_la_devopstest_simple_name_1": {
-            "value": null
-        },
-        "templates_RequestDeveloperNotificationMessage_name": {
-            "value": null
-        },
-        "templates_PurchaseDeveloperNotificationMessage_name": {
-            "value": null
-        },
-        "notifications_NewApplicationNotificationMessage_name": {
-            "value": null
-        },
-        "templates_ApplicationApprovedNotificationMessage_name": {
-            "value": null
-        },
-        "backends_LogicApp_la_devopstest_simple_DevOpsTest_name": {
-            "value": null
-        },
-        "notifications_RequestPublisherNotificationMessage_name": {
-            "value": null
-        },
-        "templates_PasswordResetByAdminNotificationMessage_name": {
-            "value": null
-        },
-        "notifications_PurchasePublisherNotificationMessage_name": {
-            "value": null
-        },
-        "notifications_NewIssuePublisherNotificationMessage_name": {
-            "value": null
-        },
-        "operations_manual_invoke_name": {
-            "value": null
-        },
-        "schemas_5c52211ee59ab311e0f3fe98_name": {
-            "value": null
-        },
-        "templates_QuotaLimitApproachingDeveloperNotificationMessage_name": {
-            "value": null
-        },
-        "notifications_QuotaLimitApproachingPublisherNotificationMessage_name": {
-            "value": null
-        },
+      "templates_RejectDeveloperNotificationMessage_name": {
+        "value": "RejectDeveloperNotificationMessage"
+      },
+      "apis_la_devopstest_simple_name_1": {
+        "value": "la-devopstest-simple"
+      },
+      "templates_RequestDeveloperNotificationMessage_name": {
+        "value": "RequestDeveloperNotificationMessage"
+      },
+      "templates_PurchaseDeveloperNotificationMessage_name": {
+        "value": "PurchaseDeveloperNotificationMessage"
+      },
+      "notifications_NewApplicationNotificationMessage_name": {
+        "value": "NewApplicationNotificationMessage"
+      },
+      "templates_ApplicationApprovedNotificationMessage_name": {
+        "value": "ApplicationApprovedNotificationMessage"
+      },
+      "backends_LogicApp_la_devopstest_simple_DevOpsTest_name": {
+        "value": "LogicApp_la-devopstest-simple_DevOpsTest"
+      },
+      "notifications_RequestPublisherNotificationMessage_name": {
+        "value": "RequestPublisherNotificationMessage"
+      },
+      "templates_PasswordResetByAdminNotificationMessage_name": {
+        "value": "PasswordResetByAdminNotificationMessage"
+      },
+      "notifications_PurchasePublisherNotificationMessage_name": {
+        "value": "PurchasePublisherNotificationMessage"
+      },
+      "notifications_NewIssuePublisherNotificationMessage_name": {
+        "value": "NewIssuePublisherNotificationMessage"
+      },
+      "operations_manual_invoke_name": {
+        "value": "manual-invoke"
+      },
+      "schemas_5c52211ee59ab311e0f3fe98_name": {
+        "value": "5c52211ee59ab311e0f3fe98"
+      },
+      "templates_QuotaLimitApproachingDeveloperNotificationMessage_name": {
+        "value": "QuotaLimitApproachingDeveloperNotificationMessage"
+      },
+      "notifications_QuotaLimitApproachingPublisherNotificationMessage_name": {
+        "value": "QuotaLimitApproachingPublisherNotificationMessage"
+      },
         "policies_policy_name_3": {
-            "value": null
+            "value": "policy"
         }
     }
 }
