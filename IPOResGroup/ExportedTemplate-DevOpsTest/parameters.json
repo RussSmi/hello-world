@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "workflows_la_devopstest_simple_name": {
-            "value": null
+            "value": "la-devopstest-simple"
         },
         "service_apim_devopstest_rs_name": {
-            "value": null
+            "value": "apim-devopstest-rs"
         },
         "users_1_name": {
             "value": null
@@ -18,7 +18,7 @@
             "value": null
         },
         "products_starter_name": {
-            "value": null
+            "value": "Starter"
         },
         "groups_developers_name": {
             "value": null
@@ -27,16 +27,16 @@
             "value": null
         },
         "products_unlimited_name": {
-            "value": null
+            "value": "Unlimited"
         },
-        "subscriptions_master_name": {
-            "value": null
-        },
+      "subscriptions_master_name": {
+        "value": "Microsoft Azure Internal Consumption"
+      },
         "groups_administrators_name": {
             "value": null
         },
         "apis_la_devopstest_simple_name": {
-            "value": null
+            "value": "la-devopstest-simple"
         },
         "users_1_name_1": {
             "value": null
