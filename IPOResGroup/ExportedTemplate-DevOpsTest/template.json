@@ -206,39 +206,6 @@
     "variables": {},
     "resources": [
         {
-            "comments": "Generalized from resource: '/subscriptions/ca9ae6cf-2ab2-48d0-981d-c1030fd74a64/resourceGroups/DevOpsTest/providers/Microsoft.ApiManagement/service/apim-devopstest-rs'.",
-            "type": "Microsoft.ApiManagement/service",
-            "sku": {
-                "name": "Developer",
-                "capacity": 1
-            },
-            "name": "[parameters('service_apim_devopstest_rs_name')]",
-            "apiVersion": "2018-06-01-preview",
-            "location": "UK South",
-            "tags": {},
-            "scale": null,
-            "properties": {
-                "publisherEmail": "rusmith@microsoft.com",
-                "publisherName": "IPO Test",
-                "notificationSenderEmail": "apimgmt-noreply@mail.windowsazure.com",
-                "hostnameConfigurations": [],
-                "additionalLocations": null,
-                "virtualNetworkConfiguration": null,
-                "customProperties": {
-                    "Microsoft.WindowsAzure.ApiManagement.Gateway.Security.Protocols.Tls10": "False",
-                    "Microsoft.WindowsAzure.ApiManagement.Gateway.Security.Protocols.Tls11": "False",
-                    "Microsoft.WindowsAzure.ApiManagement.Gateway.Security.Protocols.Ssl30": "False",
-                    "Microsoft.WindowsAzure.ApiManagement.Gateway.Security.Ciphers.TripleDes168": "False",
-                    "Microsoft.WindowsAzure.ApiManagement.Gateway.Security.Backend.Protocols.Tls10": "False",
-                    "Microsoft.WindowsAzure.ApiManagement.Gateway.Security.Backend.Protocols.Tls11": "False",
-                    "Microsoft.WindowsAzure.ApiManagement.Gateway.Security.Backend.Protocols.Ssl30": "False"
-                },
-                "virtualNetworkType": "None",
-                "certificates": null
-            },
-            "dependsOn": []
-        },
-        {
             "comments": "Generalized from resource: '/subscriptions/ca9ae6cf-2ab2-48d0-981d-c1030fd74a64/resourcegroups/DevOpsTest/providers/Microsoft.ApiManagement/service/apim-devopstest-rs/apis/la-devopstest-simple'.",
             "type": "Microsoft.ApiManagement/service/apis",
             "name": "[concat(parameters('service_apim_devopstest_rs_name'), '/', parameters('apis_la_devopstest_simple_name'))]",
