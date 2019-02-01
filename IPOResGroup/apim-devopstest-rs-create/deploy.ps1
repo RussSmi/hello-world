@@ -44,7 +44,8 @@ param(
  $templateFilePath = "template.json",
 
  [string]
- $parametersFilePath = "parameters.json"
+ $parametersFilePath = "x"
+ <# parameters.json #>
 )
 
 <#

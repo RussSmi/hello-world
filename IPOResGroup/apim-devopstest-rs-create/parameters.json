@@ -1,153 +1,30 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-      "service_apim_devopstest_rs_name": {
-        "value": "apim-devopstest-rs"
-      },
-        "users_1_name": {
-            "value": "1"
-        },
-        "groups_guests_name": {
-            "value": "guests"
-        },
-        "policies_policy_name": {
-            "value": "policy"
-        },
-        "products_starter_name": {
-            "value": "starter"
-        },
-        "groups_developers_name": {
-            "value": "developers"
-        },
-        "notifications_BCC_name": {
-            "value": "BCC"
-        },
-        "products_unlimited_name": {
-            "value": "unlimited"
-        },
-        "subscriptions_master_name": {
-            "value": "master"
-        },
-      "groups_administrators_name": {
-        "value": "administrators"
-      },
-      "apis_la_devopstest_simple_name": {
-        "value": "la-devopstest-simple"
-      },
-        "users_1_name_1": {
-            "value": "1"
-        },
-        "users_1_name_2": {
-            "value": "1"
-        },
-        "groups_guests_name_1": {
-            "value": "guests"
-        },
-      "templates_AccountClosedDeveloper_name": {
-        "value": "AccountClosedDeveloper"
-      },
-      "policies_policy_name_1": {
-        "value": "policy"
-      },
-        "groups_guests_name_2": {
-            "value": "guests"
-        },
-        "groups_developers_name_1": {
-            "value": "developers"
-        },
-      "properties_5c5410472c3db6933a08f023_name": {
-        "value": "5c5410472c3db6933a08f023"
-      },
-      "notifications_AccountClosedPublisher_name": {
-        "value": "AccountClosedPublisher"
-      },
-      "templates_EmailChangeIdentityDefault_name": {
-        "value": "EmailChangeIdentityDefault"
-      },
-        "groups_developers_name_2": {
-            "value": "developers"
-        },
-      "templates_NewIssueNotificationMessage_name": {
-        "value": "NewIssueNotificationMessage"
-      },
-      "subscriptions_5c5344bed2d1e30094070001_name": {
-        "value": "5c5344bed2d1e30094070001"
-      },
-      "subscriptions_5c5344bfd2d1e30094070002_name": {
-        "value": "5c5344bfd2d1e30094070002"
-      },
-      "templates_ConfirmSignUpIdentityDefault_name": {
-        "value": "ConfirmSignUpIdentityDefault"
-      },
-      "templates_PasswordResetIdentityDefault_name": {
-        "value": "PasswordResetIdentityDefault"
-      },
-      "groups_administrators_name_1": {
-        "value": "administrators"
-      },
-      "templates_InviteUserNotificationMessage_name": {
-        "value": "InviteUserNotificationMessage"
-      },
-      "templates_NewCommentNotificationMessage_name": {
-        "value": "NewCommentNotificationMessage"
-      },
-      "groups_administrators_name_2": {
-        "value": "administrators"
-      },
-      "templates_NewDeveloperNotificationMessage_name": {
-        "value": "NewDeveloperNotificationMessage"
-      },
-        "policies_policy_name_2": {
-            "value": "policy"
-        },
-      "templates_RejectDeveloperNotificationMessage_name": {
-        "value": "RejectDeveloperNotificationMessage"
-      },
-      "apis_la_devopstest_simple_name_1": {
-        "value": "la-devopstest-simple"
-      },
-      "templates_RequestDeveloperNotificationMessage_name": {
-        "value": "RequestDeveloperNotificationMessage"
-      },
-      "templates_PurchaseDeveloperNotificationMessage_name": {
-        "value": "PurchaseDeveloperNotificationMessage"
-      },
-      "notifications_NewApplicationNotificationMessage_name": {
-        "value": "NewApplicationNotificationMessage"
-      },
-      "templates_ApplicationApprovedNotificationMessage_name": {
-        "value": "ApplicationApprovedNotificationMessage"
-      },
-      "notifications_RequestPublisherNotificationMessage_name": {
-        "value": "RequestPublisherNotificationMessage"
-      },
-      "templates_PasswordResetByAdminNotificationMessage_name": {
-        "value": "PasswordResetByAdminNotificationMessage"
-      },
-      "backends_LogicApp_la_devopstest_simple_DevOpsTest2_name": {
-        "value": "LogicApp_la-devopstest-simple_DevOpsTest2"
-      },
-      "notifications_PurchasePublisherNotificationMessage_name": {
-        "value": "PurchasePublisherNotificationMessage"
-      },
-      "notifications_NewIssuePublisherNotificationMessage_name": {
-        "value": "NewIssuePublisherNotificationMessage"
-      },
-      "operations_manual_invoke_name": {
-        "value": "manual-invoke"
-      },
-      "schemas_5c54103af0f8d5099472d015_name": {
-        "value": "5c54103af0f8d5099472d015"
-      },
-      "templates_QuotaLimitApproachingDeveloperNotificationMessage_name": {
-        "value": "QuotaLimitApproachingDeveloperNotificationMessage"
-      },
-      "notifications_QuotaLimitApproachingPublisherNotificationMessage_name": {
-        "value": "QuotaLimitApproachingPublisherNotificationMessage"
-      },
-        "policies_policy_name_3": {
-            "value": "policy"
-        }
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "service_apim-devopstest-rs_name": {
+      "value": "apim-devopstest-rs"
+    },
+    "api_la-devopstest-simple_name": {
+      "value": "la-devopstest-simple"
+    },
+    "la-devopstest-simple_apiRevision": {
+      "value": "1"
+    },
+    "la-devopstest-simple_serviceUrl": {
+      "value": "https://prod-00.uksouth.logic.azure.com/workflows/6122dd244f0a4d1b9f2eaad3c50af6f2/triggers"
+    },
+    "la-devopstest-simple_isCurrent": {
+      "value": true
+    },
+    "LogicApp_la-devopstest-simple_DevOpsTest2_resourceGroup": {
+      "value": "DevOpsTest2"
+    },
+    "LogicApp_la-devopstest-simple_DevOpsTest2_logicAppName": {
+      "value": "la-devopstest-simple"
+    },
+    "product_unlimited_name": {
+      "value": "unlimited"
     }
+  }
 }
